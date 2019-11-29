@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <ul id="cat-list">
+    	<h5 class="heading">
+    		All Cats ( select from the list please ):
+    	</h5>
+    </ul>
+    <div id="cat">
+        <h2 id="cat-name"></h2>
+        <div id="cat-count-container">
+        	No. of times clicked:
+        	<span id="cat-count"></span>
+        </div>
+        <div class="catImageContainer">
+        	<img id="cat-img" src="" alt="cute cat">
+       		<button id="edit">
+       			EDIT
+       		</button>	
+        </div>
+
+        <div class="editingPanel">
+        	<form action="#" id="editCats">
+        		<p>
+        			<label for="editCatName">
+        				change cat's name	
+        			</label>
+        			<input type="text" id="editCatName">
+        		</p>
+        		<p>
+        			<label for="editClicks">
+        				change the number of times cat is clicked	
+        			</label>
+        			<input type="editClicks" id="editClicks">
+        		</p>
+        		<p>
+        			<label for="editCatImage">
+        				change the cat's image url
+        			</label>
+        			<input type="text" id="editCatImage">
+        		</p>
+        		<p>
+        			<button type="submit" id="makeEditChanges">
+        				make changes	
+        			</button>
+
+        			<button type="button" id="cancelEditChanges">
+        				cancel
+        			</button>
+        		</p>
+        	</form>
+       			
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
