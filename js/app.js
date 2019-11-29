@@ -239,6 +239,8 @@ var catListView = {
     }
 };
 
+// make it go!
+octopus.init();
 
 
 /* 
@@ -248,9 +250,7 @@ this catsStatus object is not being used,
 you can use it this way if you want to have manage all the things in view at one place
 
 */
-
-
-var catsStatus = {
+/*var catsStatus = {
 	init:function(){
 		this.catView();
 		this.catListView();
@@ -276,7 +276,7 @@ var catsStatus = {
 	
 	}
 
-}
+}*/
 
-// make it go!
-octopus.init();
+
+
